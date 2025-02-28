@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, sans-sefir;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #ffffff;
+    color: #333;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+header h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    margin-left: 20px;    
+}
+nav ul li a {
+    color: gray;
+    font-size: 15px;
+}
+.profile {
+    max-width: 500px;
+    margin: 40px auto;
+    text-align: center;
+}
+.profile img {
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profile h2 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+.title{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 14px;
+}
+.links {
+    margin: 15px 0;
+}
+.links a{
+    margin: 0 8px;
+}
+.links img{
+    width: 25px;
+    height: 25px;
+}
+.description{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.button{
+    margin-top: 10px;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    display: inline-block;
+    margin: 5px;
+}
+.bir {
+    background-color: blue;
+    color: white;
+
+}
+.ikki {
+    background-color: whitesmoke;
+    color: blue;
+    border: 1px solid blue;
+}
+footer {
+    margin-top: 40px;
+    font-size: 15px;
+    color: gray;
+}
